@@ -24,16 +24,16 @@ public class PlayerController : MonoBehaviour
         float horizontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");
         Vector2 position = transform.position;
-        position.x = position.x + 3.0f * horizontal * Time.deltaTime;
-        position.y = position.y + 3.0f * vertical * Time.deltaTime;
+        position.x = position.x + 4.0f * horizontal * Time.deltaTime;
+        position.y = position.y + 4.0f * vertical * Time.deltaTime;
         
         transform.position = position;
     }
     void FixedUpdate()
     {
         Vector2 position = rigidbody2d.position;
-        position.x = position.x + 3.0f * horizontal * Time.deltaTime;
-        position.y = position.y + 3.0f * vertical * Time.deltaTime;
+        position.x = position.x + 4.0f * horizontal * Time.deltaTime;
+        position.y = position.y + 4.0f * vertical * Time.deltaTime;
         rigidbody2d.MovePosition(position);
     }
 
