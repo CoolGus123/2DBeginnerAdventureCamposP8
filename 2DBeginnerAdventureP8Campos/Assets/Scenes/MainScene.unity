@@ -131683,7 +131683,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1163087940}
   - component: {fileID: 1163087939}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: CameraConfiner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -131735,10 +131735,10 @@ PolygonCollider2D:
   m_Points:
     m_Paths:
     - - {x: 70.28331, y: 41.678337}
-      - {x: -3.6153731, y: 41.601006}
+      - {x: -0.7709503, y: 41.768326}
       - {x: -66.710625, y: 41.579082}
       - {x: -66.56326, y: -51.713776}
-      - {x: -5.041992, y: -51.36424}
+      - {x: 3.9932327, y: -51.69888}
       - {x: 27.487288, y: -51.60825}
       - {x: 69.42853, y: -50.77697}
       - {x: 70.331024, y: -26.472366}
